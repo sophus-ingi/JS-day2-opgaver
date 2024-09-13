@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation and Events</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h2>Divs with Color Change</h2>
+<div id="div1" class="box"></div>
+<div id="div2" class="box"></div>
+<div id="div3" class="box"></div>
+<button id="colorChangeBtn">Change Colors</button>
+
+<h2>Event Bubbling</h2>
+<div id="outer">
+    <div id="bubbleDiv1" class="my-div"></div>
+    <div id="bubbleDiv2" class="my-div"></div>
+    <div id="bubbleDiv3" class="my-div"></div>
+    <div id="bubbleDiv4" class="my-div"></div>
+    <div id="bubbleDiv5" class="my-div"></div>
+    <div id="bubbleDiv6" class="my-div"></div>
+    <div id="bubbleDiv7" class="my-div"></div>
+    <div id="bubbleDiv8" class="my-div"></div>
+    <div id="bubbleDiv9" class="my-div"></div>
+    <div id="bubbleDiv10" class="my-div"></div>
+</div>
+
+<p id="output"></p>
+
+<h2>Dynamic List of Names</h2>
+<ul id="namesList"></ul>
+
+<form id="nameForm">
+    <input type="text" id="nameInput" placeholder="Add a name">
+    <button type="submit">Add</button>
+    <button type="button" id="removeFirst">Remove First</button>
+    <button type="button" id="removeLast">Remove Last</button>
+</form>
+
+<h2>Car Table</h2>
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th><th>Year</th><th>Make</th><th>Model</th>
+        <th id="priceHeader">Price</th> <!-- Added ID for sorting by price -->
+    </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+</table>
+
+<input type="number" id="priceInput" placeholder="Enter max price">
+<button id="filterBtn">Filter by Price</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

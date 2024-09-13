@@ -1,0 +1,49 @@
+/* General styles for the div boxes */
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    display: inline-block; /* Display divs in a row */
+}
+
+/* Styles for the event bubbling divs */
+.my-div {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    margin: 1px;
+    display: inline-block; /* Display divs in a row */
+}
+
+/* Styles for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Add some space above the table */
+}
+
+/* Styles for table headers and cells */
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Additional styles for form and buttons */
+form {
+    margin-top: 20px; /* Add some space above the form */
+}
+
+button {
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer; /* Show pointer cursor for buttons */
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

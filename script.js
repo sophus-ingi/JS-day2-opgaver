@@ -1,4 +1,4 @@
-// Task 1: Initial Color and Color Change
+// Initial Color and Color Change
 window.onload = function() {
     const divs = document.querySelectorAll("div.box");
     for (let i = 0; i < divs.length; i++) {
@@ -12,7 +12,7 @@ document.getElementById("colorChangeBtn").onclick = function() {
     document.getElementById("div3").style.backgroundColor = "yellow";
 };
 
-// Task 2: Event Bubbling
+// Event Bubbling
 document.getElementById("outer").addEventListener("click", function(event) {
     const target = event.target;
     if (target.classList.contains('my-div')) {
@@ -20,7 +20,7 @@ document.getElementById("outer").addEventListener("click", function(event) {
     }
 });
 
-// Task 3: Dynamic List of Names
+// Dynamic List of Names
 let names = ['Alice', 'Bob', 'Charlie'];
 const ul = document.getElementById('namesList');
 
@@ -54,7 +54,7 @@ document.getElementById("removeLast").onclick = function() {
 
 renderList(); // Initially render the list
 
-// Task 4: Car Table with Filtering and Sorting
+// Car Table with Filtering and Sorting
 const cars = [
     { id: 1, year: 1997, make: 'Ford', model: 'E350', price: 3000 },
     { id: 2, year: 1999, make: 'Chevy', model: 'Venture', price: 4900 },
